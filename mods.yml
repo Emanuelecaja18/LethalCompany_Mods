@@ -520,3 +520,27 @@
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Sligili-More_Emotes/1.2.2/icon.png
+- manifestVersion: 1
+  name: FlipMods-ReservedWalkieSlot
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWalkieSlot/
+  displayName: ReservedWalkieSlot
+  description: Gives a free, dedicated Walkie slot on the right side of your
+    screen. You can press [X] to activate and speak into the Walkie at anytime.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - FlipMods-ReservedItemSlotCore-1.6.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.0/icon.png
