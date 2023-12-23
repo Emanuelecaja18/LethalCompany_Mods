@@ -319,30 +319,6 @@
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Clementinise-CustomSounds/2.2.0/icon.png
 - manifestVersion: 1
-  name: SignatorySea-BBHello
-  authorName: SignatorySea
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/SignatorySea/BBHello/
-  displayName: BBHello
-  description: Changes Hoarding Bug sound to BB's Hello from Fnaf
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - no00ob-LCSoundTool-1.3.2
-    - Clementinise-CustomSounds-2.1.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/SignatorySea-BBHello/1.0.1/icon.png
-- manifestVersion: 1
   name: Midge-PushCompany
   authorName: Midge
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Midge/PushCompany/
@@ -544,3 +520,25 @@
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.0/icon.png
+- manifestVersion: 1
+  name: sunnobunno-YippeeMod
+  authorName: sunnobunno
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/
+  displayName: YippeeMod
+  description: Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/sunnobunno-YippeeMod/1.2.2/icon.png
