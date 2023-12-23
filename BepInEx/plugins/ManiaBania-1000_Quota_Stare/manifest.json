@@ -1,0 +1,10 @@
+{
+  "name": "1000_Quota_Stare",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Adds the 1000 quota stare we all love to the game. Requires the More Suits mod to appear.",
+  "dependencies": [
+    "x753-More_Suits-1.3.2",
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}
