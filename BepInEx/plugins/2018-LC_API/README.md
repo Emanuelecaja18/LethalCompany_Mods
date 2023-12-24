@@ -84,12 +84,21 @@ Networking - Easily send data across the network to sync data between clients
 - Removed automated bundle loading.
   - Legacy loading will still automatically load bundles if wanted.
 
-- Added event system
-  - More events to be added in future
+- Added event system.
+  - More events to be added in future.
 
-- Added `Player` class for interacting with players easily
+- Added `Player` class for interacting with players easily.
 
-- `ModdedServer.GameVersion` will now contain the base game version even if LC API modified the version to set modded only
+- `ModdedServer.GameVersion` will now contain the base game version even if LC API modified the version to set modded only.
 
 # Version 3.0.1
-- Fixed `Player.HostPlayer`
+- Fixed `Player.HostPlayer`.
+
+# Version 3.0.2
+- Fixed the command handler "eating" messages if they started with the command prefix, but weren't registered as commands.
+
+# Version 3.1.0
+- Added `Item` class for interacting with grabbable objects easily.
+- The `Player` class now has multiple new properties for inventory management.
+  - `Player.Inventory` will return a `PlayerInventory` for this.
+- The `Player.Joined` event should now work properly on LAN.

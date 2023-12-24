@@ -51,3 +51,11 @@ This will help with future syncing with clients not uses these mods, but will li
 + Fixed issue with HUD not updating properly on custom inventory sizes. May not play well with other mods, aside from HotbarPlus that change inventory sizes.
 # 1.6.0
 + Revised structure of this mod.
+# 1.6.1
++ Gave internal assembly access to LuckE's ReservedBoomboxSlot mod.
+# 1.6.2
++ Minor internal code tweaks.
+# 1.6.4
++ Added support for other mods that might increase hotbar slots, such as LethalThings Utility Belt.<br>
+# 1.6.5
++ Temporary fix for reserved hud slots starting at index 4 regardless of hotbar size, when first joining a server.

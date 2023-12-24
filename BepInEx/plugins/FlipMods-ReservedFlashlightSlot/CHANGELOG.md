@@ -40,3 +40,5 @@ Other players will still appear to have a flashlight on their shoulder.
 + Fixed the main issue of null object references when turning on/off flashlights at times, and/or dropping them.
 + Allows the laser pointer to populate the reserved flashlight slot.
 + Updated for ReservedItemSlotCore 1.6.0
+# 1.5.1
++ Removed some noisy logs

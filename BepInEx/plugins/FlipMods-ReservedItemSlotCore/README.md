@@ -9,6 +9,12 @@ This way, you can swap to these items to drop them, as well as other actions, su
 Grabbing reserved items, as well as switching between the main hotbar and reserved hotbar slots should sync between clients using this mod. (patch 1.2.5)<br>
 If relevant, these mods will have dedicated keybinds to activate the items without needing to have them currently selected.<br>
 
+## Mod compatibility
++ HotbarPlus is compatible!
++ LethalThings Utility Belt is now compatible!
++ Other mods that can add hotbar slots are not guaranteed to work.
++ Other mods that might re-arrange the hotbar slots (HUD) are not guaranteed to play nicely with these mods, but <i>might</i> technically work.
+
 ## Referencing this mod
 I do apologize, but this mod wasn't built around the idea that others would be able to create their own ReservedItemSlot mods.<br>
 The main reason is that I often restructure this core mod, and as a result, I would likely be breaking many references and compatibility with other ReservedItemSlot mods not made by me, and I don't like doing that to people.<br>
