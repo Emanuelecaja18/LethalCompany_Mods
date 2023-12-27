@@ -81,10 +81,10 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.6/icon.png
+    Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.7/icon.png
 - manifestVersion: 1
   name: Sligili-HDLethalCompany
   authorName: Sligili
@@ -151,10 +151,10 @@
   versionNumber:
     major: 1
     minor: 6
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.6.5/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.6.6/icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -634,3 +634,25 @@
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Rattenbonkers-TVLoader/1.1.1/icon.png
+- manifestVersion: 1
+  name: EliteMasterEric-Coroner
+  authorName: EliteMasterEric
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/
+  displayName: Coroner
+  description: Rework the Performance Report with new info, including cause of death.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 2
+  enabled: true
+  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/1.4.2/icon.png

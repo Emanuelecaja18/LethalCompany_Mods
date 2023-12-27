@@ -59,3 +59,6 @@ This will help with future syncing with clients not uses these mods, but will li
 + Added support for other mods that might increase hotbar slots, such as LethalThings Utility Belt.<br>
 # 1.6.5
 + Temporary fix for reserved hud slots starting at index 4 regardless of hotbar size, when first joining a server.
+# 1.6.6
++ My mod and LethalThings mutally broke compat with each other temporarily. Fixed now.<br>
+My mod should now dynamically update the start index for the reserved slots in case other mods do change the order.
