@@ -1,12 +1,25 @@
 # Changelog
 
-# 1.4.2
+# Upcoming
+[] Implement Stun Grenade death
+
+# 1.5.0
+## Added
+- Added a new localization feature! Coroner now has official support for English, Dutch, and Russian.
+    - If you want to help localize Coroner for other languages, please visit the Lethal Company Modding Discord or submit a pull request on GitHub, I would GREATLY appreciate your contributions.
+## Changed
+- LC_API has been readded as a dependency after the 3.0.0 update fixed all the weird bu.
 ## Fixed
-- Undo changes from 1.4.1.
+- Fixed an issue where vanilla notes would be replaced with funny notes (funny notes should only display if no vanilla ones were given)
+- Fixed an issue where "Funny Notes" were not randomized when serious death messages were turned on.
+
+# 1.4.2
+## Added
+- Now includes the mod lel
 
 # 1.4.1
-## Fixed
-- Fixed a minor build issue.
+## Removed
+- I decided you folks had it too good *yoinks mod away*
 
 # 1.4.0
 ## Additions

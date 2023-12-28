@@ -150,11 +150,11 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 6
-    patch: 6
+    minor: 7
+    patch: 0
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.6.6/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.0/icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -470,10 +470,10 @@
   versionNumber:
     major: 0
     minor: 4
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/Rune580-LethalCompany_InputUtils/0.4.3/icon.png
+    Manager/DataFolder/LethalCompany/cache/Rune580-LethalCompany_InputUtils/0.4.4/icon.png
 - manifestVersion: 1
   name: Sligili-More_Emotes
   authorName: Sligili
@@ -647,12 +647,13 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
+    - 2018-LC_API-3.0.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 4
-    patch: 2
+    minor: 5
+    patch: 0
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/1.4.2/icon.png
+    Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/1.5.0/icon.png

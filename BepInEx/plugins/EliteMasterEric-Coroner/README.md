@@ -4,6 +4,10 @@ A plugin which overhauls the end-of-mission Performance Report with new informat
 
 Supports v45.
 
+Now in v1.5.0, language support! Open the mod config to set your language.
+
+NOTE: It is recommended to use [Russian textures](https://thunderstore.io/c/lethal-company/p/Hayrizan/Russian_textures/) if you use the Russian language texture..
+
 **NOTE:** [LC_API](https://thunderstore.io/c/lethal-company/p/2018/LC_API/) is an optional but highly recommended dependency!
 
 ## Issues
@@ -24,4 +28,5 @@ Report any issues on the [Lethal Company Modding Discord](https://discord.com/ch
 
 ## Credits
 - EliteMasterEric: Programming
-- FoguDragon: Playtesting
+- NickolasFleim: Programmed Localization Feature, Russian Localization
+- FoguDragon: Playtesting, Dutch Localization

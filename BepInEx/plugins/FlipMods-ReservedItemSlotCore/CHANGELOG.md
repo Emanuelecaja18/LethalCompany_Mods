@@ -62,3 +62,8 @@ This will help with future syncing with clients not uses these mods, but will li
 # 1.6.6
 + My mod and LethalThings mutally broke compat with each other temporarily. Fixed now.<br>
 My mod should now dynamically update the start index for the reserved slots in case other mods do change the order.
+# 1.6.7
++ Added support for ReservedSprayPaintSlot and the upcoming ReservedWeaponSlot mods.
+# 1.7.0
++ Added more tools for ReservedItemSlot mods.
++ Adds support for ReservedWeaponSlot!
