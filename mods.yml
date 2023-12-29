@@ -86,29 +86,6 @@
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.7/icon.png
 - manifestVersion: 1
-  name: Sligili-HDLethalCompany
-  authorName: Sligili
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/
-  displayName: HDLethalCompany
-  description: Additional graphics settings such as resolution, anti-aliasing, fog
-    quality etc.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 6
-  enabled: true
-  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/Sligili-HDLethalCompany/1.5.6/icon.png
-- manifestVersion: 1
   name: Renegades-FlashlightToggle
   authorName: Renegades
   websiteUrl: https://thunderstore.io/c/lethal-company/p/Renegades/FlashlightToggle/
@@ -319,52 +296,6 @@
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Clementinise-CustomSounds/2.2.0/icon.png
 - manifestVersion: 1
-  name: Midge-PushCompany
-  authorName: Midge
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Midge/PushCompany/
-  displayName: PushCompany
-  description: Push your fellow crewmates using the interaction key! (E by
-    default). This mod is required by everyone.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: true
-  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/Midge-PushCompany/1.2.0/icon.png
-- manifestVersion: 1
-  name: egeadam-MoreScreams
-  authorName: egeadam
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/egeadam/MoreScreams/
-  displayName: MoreScreams
-  description: This modification allows you to hear players' voices for 2 seconds
-    (adjustable) after they die.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/egeadam-MoreScreams/1.0.3/icon.png
-- manifestVersion: 1
   name: 5Bit-FPSSpectate
   authorName: 5Bit
   websiteUrl: https://thunderstore.io/c/lethal-company/p/5Bit/FPSSpectate/
@@ -520,53 +451,6 @@
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.1/icon.png
-- manifestVersion: 1
-  name: sunnobunno-YippeeMod
-  authorName: sunnobunno
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/
-  displayName: YippeeMod
-  description: Changes the chitter SFX of the Hoarding Bug to the yippee-tbh sound
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 2
-  enabled: true
-  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/sunnobunno-YippeeMod/1.2.2/icon.png
-- manifestVersion: 1
-  name: Slimeade-FreeBirdEurobeatJester
-  authorName: Slimeade
-  websiteUrl: https://thunderstore.io/c/lethal-company/p/Slimeade/FreeBirdEurobeatJester/
-  displayName: FreeBirdEurobeatJester
-  description: Replaces the Jester windup and attack sound effects with Free Bird
-    Eurobeat Remix
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - BepInEx-BepInExPack-5.4.2100
-    - Clementinise-CustomSounds-1.2.4
-    - no00ob-LCSoundTool-1.4.0
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/Slimeade-FreeBirdEurobeatJester/1.0.0/icon.png
 - manifestVersion: 1
   name: KoderTeh-Boombox_Controller
   authorName: KoderTeh
