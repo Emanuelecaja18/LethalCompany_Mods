@@ -67,3 +67,8 @@ My mod should now dynamically update the start index for the reserved slots in c
 # 1.7.0
 + Added more tools for ReservedItemSlot mods.
 + Adds support for ReservedWeaponSlot!
+# 1.7.1
++ Fixed some compatibility issues in some cases with other mods not being able to run their transpiled code.
++ Scrolling up will now always scroll up in the reserved item slots.
++ Made swapping between reserved hotbar slots smarter. It will now not let you swap to empty inventory slots when focused on the reserved hotbar slots.<br>
+There still may be syncing issues between which reserved item is held between players. Will update this next.

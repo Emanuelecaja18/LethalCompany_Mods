@@ -41,4 +41,6 @@ Other players will still appear to have a flashlight on their shoulder.
 + Allows the laser pointer to populate the reserved flashlight slot.
 + Updated for ReservedItemSlotCore 1.6.0
 # 1.5.1
-+ Removed some noisy logs
++ Removed some noisy logs.
+# 1.5.2
++ Flashlight now renders on shoulder in some cases where you can view yourself in third person.

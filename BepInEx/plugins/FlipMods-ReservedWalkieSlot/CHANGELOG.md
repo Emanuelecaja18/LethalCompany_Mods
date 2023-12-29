@@ -33,3 +33,5 @@ I will re-add the mesh to the local player when I get a good position for it.
 # 1.5.0
 + Various tweaks.
 + Updated for ReservedItemSlotCore 1.6.0
+# 1.5.1
++ Walkie now renders on shoulder in some cases where you can view yourself in third person.

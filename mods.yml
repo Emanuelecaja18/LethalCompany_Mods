@@ -151,10 +151,10 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.0/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.1/icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -169,16 +169,16 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.6.0
+    - FlipMods-ReservedItemSlotCore-1.7.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.5.1/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.5.2/icon.png
 - manifestVersion: 1
   name: AlexCodesGames-AdditionalSuits
   authorName: AlexCodesGames
@@ -510,16 +510,16 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.6.0
+    - FlipMods-ReservedItemSlotCore-1.7.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.0/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.1/icon.png
 - manifestVersion: 1
   name: sunnobunno-YippeeMod
   authorName: sunnobunno
