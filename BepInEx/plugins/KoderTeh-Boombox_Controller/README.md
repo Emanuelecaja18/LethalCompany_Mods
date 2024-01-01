@@ -16,6 +16,11 @@ IMPORTANT: Supported images' width must be not below 500 and be greater than the
 To change the color of the boombox you have to edit the mod's config on the "Lethal Company\BoomboxController" path.
 ![](https://i.imgur.com/ye4mp0w.jpg)
 
+### KeyBinds
+
+You can now change bindings in the game via settings.
+![](https://i.imgur.com/6viaPdJ.jpg)
+
 ### Wiki
 
 You can see more information in the wiki.
@@ -36,6 +41,7 @@ There are currently two translations available:
 6. Support for YouTube playlists
 7. Changing the color of the boombox.
 8. Adding a picture to the back of the boombox.
+9. Memorizing what the volume was after quitting the game.
 
 ### Supported links:
 

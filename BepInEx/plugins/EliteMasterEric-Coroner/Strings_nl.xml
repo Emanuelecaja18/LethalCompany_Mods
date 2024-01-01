@@ -5,7 +5,7 @@
         <tag language="nl" />
     </tags>
     <strings>
-        <UINotes text="Notes: " />
+        <UINotes text="Notities: " />
         <UICauseOfDeath text="Doodsoorzaak: " />
 
         <FunnyNote text="De coolste pinda." />
@@ -21,6 +21,7 @@
         <FunnyNote text="Een teamplayer." />
         <FunnyNote text="Een echte doorzetter." />
         <FunnyNote text="Heeft het meeste gesnackt." />
+    	<FunnyNote text="Passeerde GO en kreeg 200." />
         <FunnyNote text="Was heel erg funky." />
         <FunnyNote text="Ik denk dat deze een seriemoordenaar is." />
         <FunnyNote text="Perfect onopvallend." />
@@ -39,14 +40,14 @@
 
         <DeathStrangulation text="Dood gewurgd." />
 
-        <DeathSuffocation text="Dood gestikt." />
+        <DeathSuffocation text="Verstikt." />
 
         <DeathMauling text="Verscheurd." />
 
         <DeathGunshots text="Neergeschoten." />
         <DeathGunshots text="Tot de rand gevuld met kogels." />
 
-        <DeathCrushing text="Doodgedrukt." />
+        <DeathCrushing text="Geplet." />
 
         <DeathDrowning text="Verdronken." />
 
@@ -56,16 +57,16 @@
 
         <DeathKicking text="Doodgetrapt." />
 
-        <DeathEnemyBracken text="Nek gebroken door een Bracken." />
+        <DeathEnemyBracken text="Had hun nek gebroken door een Bracken." />
         <DeathEnemyBracken text="Heeft te lang naar een Bracken gestaard." />
 
         <DeathEnemyEyelessDog text="Werd verslind door een Eyeless Dog." />
         <DeathEnemyEyelessDog text="Was veel te luid rond een Eyeless Dog." />
-        <DeathEnemyEyelessDog text="Veel te babbelzugtig rond een Eyeless Dog." />
+        <DeathEnemyEyelessDog text="Kon niet stil zijn rond een Eyeless Dog." />
 
-        <DeathEnemyForestGiant text="Verslind door een Forest Giant." />
+        <DeathEnemyForestGiant text="Werd opgeslokt door een Forest Giant." />
 
-        <DeathEnemyCircuitBees text="Neergestoken door Circuit Bees." />
+        <DeathEnemyCircuitBees text="Werd neergestoken door Circuit Bees." />
 
         <DeathEnemyGhostGirl text="Op mysterieuze wijze gestorven." />
         <DeathEnemyGhostGirl text="Onzeker." />
@@ -86,10 +87,10 @@
         <DeathEnemyCoilHead text="Zat vast in een staarwedstrijd met een Coil Head." />
         <DeathEnemyCoilHead text="Verloor een staarwedstrijd tegen een Coil Head." />
 
-        <DeathEnemySnareFlea text="Werd doodgestikt door een Snare Flea." />
+        <DeathEnemySnareFlea text="Werd verstikt door een Snare Flea." />
 
         <DeathEnemyHygrodere text="Werd geabsorbeerd door een Hygrodere." />
-        <DeathEnemyHygrodere text="Gaf een grote knuffel aan een Hygrodere." />
+        <DeathEnemyHygrodere text="Gaf een heel grote knuffel aan een Hygrodere." />
         <DeathEnemyHygrodere text="Had een oepsie met een Hygrodere." />
 
         <DeathEnemyHoarderBug text="Werd verscheurd door een Hoarder Bug." />
@@ -100,34 +101,34 @@
         <DeathEnemySporeLizard text="Werd doodgebeten door een Spore Lizard." />
         <DeathEnemySporeLizard text="Op een of andere manier overleden aan een Spore Lizard" />
 
-        <DeathEnemyBunkerSpider text="Verstrikt in het web van een Bunker Spider." />
+        <DeathEnemyBunkerSpider text="Geraakte verstrikt in het web van een Bunker Spider." />
 
         <DeathEnemyThumper text="Werd verscheurd door een Thumper." />
         <DeathEnemyThumper text="Werd gethumped door een Thumper." />
 
-        <DeathEnemyMaskedPlayerWear text="Heeft een vervloekt masker opgezet." />
+        <DeathEnemyMaskedPlayerWear text="Had een vervloekt masker opgezet." />
         <DeathEnemyMaskedPlayerWear
             text="Een comedische tragedie." />
 
-        <DeathEnemyMaskedPlayerVictim text="Werd vermoord door een Masked." />
+        <DeathEnemyMaskedPlayerVictim text="Werd vermoord door een Masked medewerker." />
         <DeathEnemyMaskedPlayerVictim text="Werd een tragedie van de Masked." />
 
         <DeathEnemyNutcrackerKicked text="Werd doodgeschopt door een Nutcracker." />
-        <DeathEnemyNutcrackerKicked text="Noten gekraakt door een Nutcracker." />
+        <DeathEnemyNutcrackerKicked text="Werd verpletterd door een Nutcracker." />
 
-        <DeathEnemyNutcrackerShot text="Neergeschoten door een Nutcracker." />
-        <DeathEnemyNutcrackerShot text="Was aan de verkeerde kant van een saluut van 21 schoten." />
+        <DeathEnemyNutcrackerShot text="Werd neergeschoten door een Nutcracker." />
+        <DeathEnemyNutcrackerShot text="Was aan de verkeerde kant van een jachtgeweer gaan staan." />
 
         <DeathPlayerJetpackGravity text="Viel tijdens het gebruik van een Jetpack." />
         <DeathPlayerJetpackGravity text="Te dicht bij de zon gevlogen." />
-        <DeathPlayerJetpackGravity text="Geen brandstof meer." />
+        <DeathPlayerJetpackGravity text="Raakte zonder brandstof tijdens het gebruik van een Jetpack." />
 
         <DeathPlayerJetpackBlast text="Opgeblazen tijdens het gebruik van een Jetpack." />
         <DeathPlayerJetpackBlast text="Is een vuurwerk geworden." />
 
         <DeathPlayerMurderMelee text="Werd doodgeslagen door een medewerker." />
         <DeathPlayerMurderMelee text="Was het slachtoffer van een moord." />
-        <DeathPlayerMurderMelee text="Werd vermoord" />
+        <DeathPlayerMurderMelee text="Werd vermoord." />
         <DeathPlayerMurderMelee text="Werd in de rug gestoken door een medewerker." />
 
         <DeathPlayerMurderShotgun text="Werd neergeschoten door een mederwerker." />
@@ -136,7 +137,7 @@
         <DeathPlayerMurderShotgun text="Heeft helaas niet de Victory Royale gekregen." />
         <DeathPlayerMurderShotgun text="Kon de kogels van hun medewerker niet ontwijken." />
 
-        <DeathPlayerQuicksand text="Vast geraakt in drijfzand." />
+        <DeathPlayerQuicksand text="Raakte vast in drijfzand." />
         <DeathPlayerQuicksand text="Verdronken in drijfzand." />
 
         <DeathPlayerStunGrenade text="Werd geflashbangd door een collega." />
@@ -151,7 +152,7 @@
 
         <DeathOtherLandmine text="Is op een landmijn gaan staan." />
 
-        <DeathOtherTurret text="Neergeschoten door een turret." />
+        <DeathOtherTurret text="Werd neergeschoten door een turret." />
 
         <DeathOtherLightning text="Werd getroffen door de bliksem." />
 

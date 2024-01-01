@@ -3,6 +3,17 @@
 # Upcoming
 [] Implement Stun Grenade death
 
+# 1.5.2
+## Fixed
+- Attempting to fix an issue caused when installing Coroner without R2Modman.
+
+# 1.5.1
+## Added
+- Added a new French localization.
+## Changed
+- I have removed LC_API as a dependency from the manifest. Coroner on its own does a reasonable job of synchronizing cause of death messages across clients without it, in my experience, to a greater extent than I originally thought. I do not anticipate making it a dependency again in the future. Apologies for the inconvenience.
+- Improved the Dutch localization.
+
 # 1.5.0
 ## Added
 - Added a new localization feature! Coroner now has official support for English, Dutch, and Russian.

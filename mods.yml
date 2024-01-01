@@ -30,16 +30,17 @@
   packageType: other
   installMode: managed
   loaders: []
-  dependencies: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 1
-    patch: 0
+    minor: 2
+    patch: 2
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/2018-LC_API/3.1.0/icon.png
+    Manager/DataFolder/LethalCompany/cache/2018-LC_API/3.2.2/icon.png
 - manifestVersion: 1
   name: bizzlemip-BiggerLobby
   authorName: bizzlemip
@@ -81,10 +82,10 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 7
+    patch: 9
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.7/icon.png
+    Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.9/icon.png
 - manifestVersion: 1
   name: Renegades-FlashlightToggle
   authorName: Renegades
@@ -128,10 +129,10 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 1
+    patch: 3
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.1/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.3/icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
@@ -152,10 +153,10 @@
   versionNumber:
     major: 1
     minor: 5
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.5.2/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.5.3/icon.png
 - manifestVersion: 1
   name: AlexCodesGames-AdditionalSuits
   authorName: AlexCodesGames
@@ -468,10 +469,10 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 2
+    patch: 4
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/KoderTeh-Boombox_Controller/1.1.2/icon.png
+    Manager/DataFolder/LethalCompany/cache/KoderTeh-Boombox_Controller/1.1.4/icon.png
 - manifestVersion: 1
   name: ManiaBania-1000_Quota_Stare
   authorName: ManiaBania
@@ -531,13 +532,12 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - 2018-LC_API-3.0.2
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 0
+    patch: 3
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/1.5.0/icon.png
+    Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/1.5.3/icon.png

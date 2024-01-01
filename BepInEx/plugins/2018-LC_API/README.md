@@ -1,8 +1,54 @@
 # LC-API
+
+[![Build](https://github.com/steven4547466/LC-API/actions/workflows/build.yml/badge.svg)](https://github.com/steven4547466/LC-API/actions/workflows/build.yml)
+[![Latest Version](https://img.shields.io/thunderstore/v/2018/LC_API?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/2018/LC_API)
+[![Total Downloads](https://img.shields.io/thunderstore/dt/2018/LC_API?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/2018/LC_API)
+
 The definitive Lethal Company modding API. Includes some very useful features to make modding life easier.
 
 # For Developers
 If you want to use the API in your plugin, add the LC_API.dll as a project reference!
+
+## Contributing
+If you wish to contribute to this project, you will need [unity netcode weaver](https://github.com/EvaisaDev/UnityNetcodeWeaver/releases) 
+to implement custom networking properly. Follow their instructions to get NetcodeWeaver set-up for patching Lethal Company mods 
+and keep note of the filepath where you chose to install it.
+
+Once you have forked and cloned the repository, you will need to create a file in the solution folder called `LC-API.csproj.user` 
+to set paths to build dependencies. Here's a template for that file's contents:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <LETHAL_COMPANY_DIR>F:/SteamLibrary/steamapps/common/Lethal Company</LETHAL_COMPANY_DIR>
+        <TEST_PROFILE_DIR>$(APPDATA)/r2modmanPlus-local/LethalCompany/profiles/Test LC API</TEST_PROFILE_DIR>
+        <NETCODE_PATCHER_DIR>$(SolutionDir)NetcodeWeaver</NETCODE_PATCHER_DIR>
+    </PropertyGroup>
+
+    <!-- Create your 'Test Profile' using your modman of choice before enabling this. 
+    Enable by setting the Condition attribute to "true". *nix users should switch out `copy` for `cp`. -->
+    <Target Name="CopyToTestProfile" AfterTargets="PostBuildEvent;NetcodeWeave" Condition="false">
+        <MakeDir
+                Directories="$(TEST_PROFILE_DIR)/BepInEx/plugins/2018-LC_API"
+                Condition="Exists('$(TEST_PROFILE_DIR)') And !Exists('$(TEST_PROFILE_DIR)/BepInEx/plugins/2018-LC_API')"
+        />
+        <Exec Command="copy &quot;$(TargetPath)&quot; &quot;$(TEST_PROFILE_DIR)/BepInEx/plugins/2018-LC_API/&quot;" />
+    </Target>
+</Project>
+```
+
+It is vital that you change the `NETCODE_PATCHER_DIR` property to the location of your local NetcodeWeaver installation.
+
+Ensure your Assembly CSharp is set `Publicize="true"` in the .csproj file to ensure it gets publicized.
+
+Once you have completed these steps, you will be able to properly build the solution.
+
+## Making a PR
+Your [pull request](https://github.com/steven4547466/LC-API/pulls) should target the [dev branch](https://github.com/steven4547466/LC-API/tree/dev). This is because the `main` branch is reserved for tested features that are ready for release. Basically if someone were to clone the repo, they should be able to build `main` and use it without any fear of broken things.
+
+The `dev` branch, however, may contain untested features and is used to build release candidates. Before releases, the `dev` branch will be frozen and tested for issues, when it passes its testing then it will be merged into `main` and a release will be made. Pre-releases may come from the `dev` branch for release candidates and testing. These will be generally stable, but may still contain broken features before testing is done.
+
+Pull requests targeting the `main` branch will not be merged in most circumstances. Most merges to `main` will be directly from the frozen `dev` branch after testing.
 
 # Features
 AssetBundle loading - Put asset bundles in BepInEx > Bundles and load them using BundleAPI.BundleLoader.GetLoadedAsset
@@ -14,91 +60,66 @@ It also lets mod authors make their mods put users in special matchmaking where 
 
 Networking - Easily send data across the network to sync data between clients
 
-# Releases
+# Installation
 
-# Version 1.0.0
-- Release
+## R2ModMan or Thunderstore Manager (highly recommended)
 
-# Version 1.1.0
-- General bug fixes for Networking
+### R2ModMan
+1. Go to the [thunderstore page](https://thunderstore.io/c/lethal-company/p/2018/LC_API)
+2. Click `Install with Mod Manager`
 
-- The local player now will NOT receive data that they broadcast. The bool value on the receive delegates is also gone. If you were using Networking, you will need to ajust your code.
+### Thunderstore Manager
+(if the above doesn't work for you, open up the Thunderstore App to do the following)
+1. Click `Get mods`/`Online` (whatever it happens to be called)
+2. Search for LC API
+3. Download it
 
-# Version 1.1.1
-- General bug fixes for Networking
+## Manual
+1. Go to the [thunderstore page](https://thunderstore.io/c/lethal-company/p/2018/LC_API)
+2. Click `Manual Download`
+3. Unzip files
+4. Navigate to `2018-LC_API-VERSION/BepinEx/plugins` and copy the contents
+5. Find your BepinEx installation's plugin folder, by default it would be in steamapps: `steamapps\common\Lethal Company\BepInEx\plugins`
+6. Create a folder titled `2018-LC_API`
+7. Paste the contents into that folder
 
-- Plugin developers NEED to update to this version as it includes a fix for a bug that prevented Networking from being used.
+**DO NOT PLACE THE BUNDLES FOLDER IN THE PREMADE `BepinEx/Bundles` FOLDER!** It must be in the `2018-LC_API` folder.
 
-# Version 1.2.0
-- Added new GameInterfaceAPI. Documentation will be created soon.
+If you did all of this correctly, it should load properly.
 
-- Added new CheatDatabase with the purpose of catching users trying to join non-modded servers with cheaty mods. The CheatDatabase also allows for the host to view all mods installed by people joining. (As long as they have LC_API installed).
+The resulting file structure should look like this:
+```
+BepinEx
+├───Bundles
+├───cache
+├───config
+├───core
+├───patchers
+└───plugins
+        └───2018-LC_API
+        │   LC_API.dll
+        │
+        └───Bundles
+                networking
+```
 
-# Version 1.2.1
-- Adjusted README formatting.
-
-# Version 1.3.0
-- Changed how the BundleLoader in the BundleAPI loads assets to fix issues caused by downloading mods from mod managers. The path BepInEx > Bundles is outdated and should not be used anymore.
-
-# Version 1.4.0
-- Changed how the BundleLoader in the BundleAPI loads assets to fix issues with certain languages. This will break some mods, but a config option is included to revert to the old system so you can still use older mods.
-
-- If you are a plugin developer, use GetLoadedAsset to get an asset, instead of using the asset dictionary. This ensures that your plugin will still work even when changes like this are made.
-
-# Version 1.4.1
-- LC_API should now be able to load no matter if the Hide Manager GameObject option is on or off.
-
-- A config option has been added that will disable the BundleLoader.
-
-# Version 1.4.2
-- Fix for the new config option causing the API to fail to initialize.
-
-# Version 2.0.0
-- Changes to the BundleLoader to stop conflicts with other plugins loading assets without the BundleLoader.
-
-- Changes to Networking and GameState events, plugins using these will need to be rebuilt.
-
-- Added GameTips to GameInterfaceAPI. GameTips uses a tip que system to ensure no popup tip messages overlap with eachother.
-
-- Changed the CheatDatabase to now (in theory) work for all players, not just the host.
-
-- Changes the CheatDatabase to use GameTips to display information. It will still output information to the logs.
-
-# Version 2.1.0
-- Fixed the BundleLodaer loading assets twice.
-
-# Version 2.1.1
-- Actually fixed the BundleLodaer loading assets twice.
-
-# Version 2.1.2
-- Updated to game version 45.
-
-# Version 2.2.0
-- Added a command handler.
-
-- The bundle loader will only attempt to load actual bundles.
-
-- Added a temporary fix for lethal expansion bundles. Will be looking into a long term solution in the next update.
-
-# Version 3.0.0
-- Removed automated bundle loading.
-  - Legacy loading will still automatically load bundles if wanted.
-
-- Added event system.
-  - More events to be added in future.
-
-- Added `Player` class for interacting with players easily.
-
-- `ModdedServer.GameVersion` will now contain the base game version even if LC API modified the version to set modded only.
-
-# Version 3.0.1
-- Fixed `Player.HostPlayer`.
-
-# Version 3.0.2
-- Fixed the command handler "eating" messages if they started with the command prefix, but weren't registered as commands.
-
-# Version 3.1.0
-- Added `Item` class for interacting with grabbable objects easily.
-- The `Player` class now has multiple new properties for inventory management.
-  - `Player.Inventory` will return a `PlayerInventory` for this.
-- The `Player.Joined` event should now work properly on LAN.
+# TODO
+- Picking up and dropping item events
+- Using item events
+  - For shovels, that's hitting
+  - For boomboxes, that's activating music
+  - etc. though this would all fall under one event probably just `Item.Using` or `Item.Activating`
+- Player begin and end moving events
+- Player crouch and jump events
+- Past tense versions of hurting and dying
+  - These won't be cancellable, but you will be able to use these to do things on death/hurt as hurting and dying can be cancelled by other mods
+- Changing item event
+- Selling items event
+  - Probably one for selling many items on the counter which will also call an event for each individual item being sold
+- Item spawning event
+- Enemy stuff is a bit further out, but here's some events that will be useful for them (as well as their past tense versions):
+  - Spawning
+  - Hurting
+  - Dying
+  - Attacking (when the enemy attacks a player)
+  - There may be ones specific to some kind of enemy as well

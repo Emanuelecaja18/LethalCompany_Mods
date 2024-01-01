@@ -1,3 +1,12 @@
+-   **1.1.4**
+
+	-	Optimized the code a bit.
+
+-   **1.1.3**
+
+	-	Added bindings to change the volume buttons.
+	-	Memorizing the volume number after quitting the game.
+
 -   **1.1.2**
 
 	-	Changing the color of the boombox.
