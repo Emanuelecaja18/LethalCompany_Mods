@@ -36,11 +36,11 @@
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 2
-    patch: 2
+    minor: 3
+    patch: 0
   enabled: true
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/2018-LC_API/3.2.2/icon.png
+    Manager/DataFolder/LethalCompany/cache/2018-LC_API/3.3.0/icon.png
 - manifestVersion: 1
   name: bizzlemip-BiggerLobby
   authorName: bizzlemip
@@ -83,7 +83,7 @@
     major: 1
     minor: 0
     patch: 9
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.9/icon.png
 - manifestVersion: 1
@@ -107,7 +107,7 @@
     major: 1
     minor: 5
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Renegades-FlashlightToggle/1.5.0/icon.png
 - manifestVersion: 1
@@ -129,17 +129,17 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 3
-  enabled: true
+    patch: 7
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.3/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.7.7/icon.png
 - manifestVersion: 1
   name: FlipMods-ReservedFlashlightSlot
   authorName: FlipMods
   websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/
   displayName: ReservedFlashlightSlot
   description: Gives a free, dedicated Flashlight slot on the right side of your
-    screen. You can press [F] to activate the Flashlight at anytime.
+    screen. Can be toggled with [F] to activate the Flashlight at anytime.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -147,16 +147,16 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.7.0
+    - FlipMods-ReservedItemSlotCore-1.7.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 3
-  enabled: true
+    patch: 5
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.5.3/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.5.5/icon.png
 - manifestVersion: 1
   name: AlexCodesGames-AdditionalSuits
   authorName: AlexCodesGames
@@ -179,7 +179,7 @@
     major: 1
     minor: 1
     patch: 3
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/AlexCodesGames-AdditionalSuits/1.1.3/icon.png
 - manifestVersion: 1
@@ -201,7 +201,7 @@
     major: 1
     minor: 1
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/vasanex-ItemQuickSwitch/1.1.0/icon.png
 - manifestVersion: 1
@@ -224,7 +224,7 @@
     major: 1
     minor: 4
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/x753-More_Suits/1.4.1/icon.png
 - manifestVersion: 1
@@ -246,7 +246,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/tinyhoot-ShipLoot/1.0.0/icon.png
 - manifestVersion: 1
@@ -269,7 +269,7 @@
     major: 1
     minor: 4
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/no00ob-LCSoundTool/1.4.0/icon.png
 - manifestVersion: 1
@@ -293,7 +293,7 @@
     major: 2
     minor: 2
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Clementinise-CustomSounds/2.2.0/icon.png
 - manifestVersion: 1
@@ -315,7 +315,7 @@
     major: 1
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/5Bit-FPSSpectate/1.0.1/icon.png
 - manifestVersion: 1
@@ -337,7 +337,7 @@
     major: 1
     minor: 2
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/TheBeeTeam-PersistentPurchases/1.2.0/icon.png
 - manifestVersion: 1
@@ -359,7 +359,7 @@
     major: 1
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/sunnobunno-ScalingStartCredits/1.0.1/icon.png
 - manifestVersion: 1
@@ -381,7 +381,7 @@
     major: 2
     minor: 0
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/RugbugRedfern-Skinwalkers/2.0.1/icon.png
 - manifestVersion: 1
@@ -403,7 +403,7 @@
     major: 0
     minor: 4
     patch: 4
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Rune580-LethalCompany_InputUtils/0.4.4/icon.png
 - manifestVersion: 1
@@ -425,7 +425,7 @@
     major: 1
     minor: 2
     patch: 2
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Sligili-More_Emotes/1.2.2/icon.png
 - manifestVersion: 1
@@ -442,16 +442,16 @@
   loaders: []
   dependencies:
     - BepInEx-BepInExPack-5.4.2100
-    - FlipMods-ReservedItemSlotCore-1.7.0
+    - FlipMods-ReservedItemSlotCore-1.7.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 5
-    patch: 1
-  enabled: true
+    patch: 3
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.1/icon.png
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.5.3/icon.png
 - manifestVersion: 1
   name: KoderTeh-Boombox_Controller
   authorName: KoderTeh
@@ -469,10 +469,10 @@
   versionNumber:
     major: 1
     minor: 1
-    patch: 4
-  enabled: true
+    patch: 5
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
-    Manager/DataFolder/LethalCompany/cache/KoderTeh-Boombox_Controller/1.1.4/icon.png
+    Manager/DataFolder/LethalCompany/cache/KoderTeh-Boombox_Controller/1.1.5/icon.png
 - manifestVersion: 1
   name: ManiaBania-1000_Quota_Stare
   authorName: ManiaBania
@@ -494,7 +494,7 @@
     major: 1
     minor: 0
     patch: 0
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/ManiaBania-1000_Quota_Stare/1.0.0/icon.png
 - manifestVersion: 1
@@ -516,7 +516,7 @@
     major: 1
     minor: 1
     patch: 1
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/Rattenbonkers-TVLoader/1.1.1/icon.png
 - manifestVersion: 1
@@ -538,6 +538,6 @@
     major: 1
     minor: 5
     patch: 3
-  enabled: true
+  enabled: false
   icon: C:/Users/emanu/AppData/Roaming/Thunderstore Mod
     Manager/DataFolder/LethalCompany/cache/EliteMasterEric-Coroner/1.5.3/icon.png

@@ -1,3 +1,8 @@
+# 1.5.5
++ Fixed a specific issue causing an error about index out of range.
+# 1.5.4
++ Stability improvements when running this mod, but host does not. (Temporarily disabling the use of the toggle flashlight hotkey if host is not running this mod. Will re-implement this again soon)
++ Updated dependency for ReservedItemSlotCore 1.7.4
 # 1.5.3
 + Fixed issue with the base flashlight not hiding the "strap" part of the mesh while on your shoulder.
 # 1.5.2

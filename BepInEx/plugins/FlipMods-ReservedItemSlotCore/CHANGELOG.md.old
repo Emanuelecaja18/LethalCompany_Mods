@@ -1,3 +1,11 @@
+# 1.7.7
++ Potential fix for the infamous de-sync issue.
+# 1.7.6
++ Gave internal assembly access to LuckE's ReservedPersonalBoomboxSlot mod.
+# 1.7.5
++ Tweaked more methods that could possibly cause de-sync.
+# 1.7.4
++ More stability improvements and fixed more cases of potential de-sync issues. Probably still more to go, but should be at least a little more stable.
 # 1.7.3
 + Added config entry to enable toggling swapping between the main hotbar slots and the reserved ones, rather than swapping while holding the hotkey.
 + Fixed quick bug with some reserved items being "registered" to the same reserved slot index amongst all clients. This will prevent some de-sync issues.

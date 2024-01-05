@@ -1,3 +1,9 @@
+-   **1.1.5**
+
+	-	Revamped the chat command system (for compatibility with the LethalExpansion mod).
+	-	Allows boombox to continue playing music after switching slots (inside your inventory).
+	-	Optimized the code a bit.
+
 -   **1.1.4**
 
 	-	Optimized the code a bit.
